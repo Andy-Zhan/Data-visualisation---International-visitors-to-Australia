@@ -1,0 +1,1551 @@
+year,name,count
+1991,New Zealand,480580
+1991,New Caledonia,15210
+1991,Papua New Guinea,35180
+1991,Vanuatu,2600
+1991,Fiji,16770
+1991,United Kingdom,263740
+1991,Ireland,9590
+1991,Austria,10280
+1991,Belgium,4090
+1991,France,22680
+1991,Germany,77700
+1991,Netherlands,21360
+1991,Switzerland,29570
+1991,Denmark,9850
+1991,Finland,5740
+1991,Norway,4080
+1991,Sweden,19140
+1991,Italy,24340
+1991,Spain,3970
+1991,Poland,2160
+1991,Russia,0
+1991,Iran,1270
+1991,Israel,4840
+1991,Saudi Arabia,2010
+1991,United Arab Emirates,1150
+1991,Cambodia,20
+1991,Thailand,24690
+1991,Vietnam,2940
+1991,Indonesia,36990
+1991,Malaysia,48030
+1991,Philippines,15740
+1991,Singapore,87460
+1991,China,16420
+1991,Hong Kong,62780
+1991,Taiwan,34730
+1991,Japan,528570
+1991,South Korea,23610
+1991,Bangladesh,630
+1991,India,9780
+1991,Nepal,450
+1991,Pakistan,1300
+1991,Sri Lanka,4080
+1991,Canada,53410
+1991,United States of America,271750
+1991,Argentina,2640
+1991,Brazil,2490
+1991,Chile,1290
+1991,Colombia,540
+1991,Mexico,1540
+1991,South Africa,9240
+1992,New Zealand,447540
+1992,New Caledonia,17970
+1992,Papua New Guinea,36960
+1992,Vanuatu,3230
+1992,Fiji,16340
+1992,United Kingdom,289910
+1992,Ireland,8720
+1992,Austria,10800
+1992,Belgium,4240
+1992,France,25350
+1992,Germany,89890
+1992,Netherlands,23550
+1992,Switzerland,29010
+1992,Denmark,10360
+1992,Finland,5070
+1992,Norway,4450
+1992,Sweden,19120
+1992,Italy,27420
+1992,Spain,4900
+1992,Poland,2020
+1992,Russia,40
+1992,Iran,1240
+1992,Israel,4660
+1992,Saudi Arabia,2570
+1992,United Arab Emirates,1840
+1992,Cambodia,230
+1992,Thailand,33560
+1992,Vietnam,4750
+1992,Indonesia,45850
+1992,Malaysia,60350
+1992,Philippines,16110
+1992,Singapore,116810
+1992,China,18680
+1992,Hong Kong,74740
+1992,Taiwan,63470
+1992,Japan,629930
+1992,South Korea,33570
+1992,Bangladesh,510
+1992,India,9600
+1992,Nepal,320
+1992,Pakistan,1610
+1992,Sri Lanka,3830
+1992,Canada,48930
+1992,United States of America,262850
+1992,Argentina,3100
+1992,Brazil,2480
+1992,Chile,1440
+1992,Colombia,500
+1992,Mexico,1940
+1992,South Africa,15260
+1993,New Zealand,499270
+1993,New Caledonia,18390
+1993,Papua New Guinea,40430
+1993,Vanuatu,3220
+1993,Fiji,17310
+1993,United Kingdom,310280
+1993,Ireland,11020
+1993,Austria,13150
+1993,Belgium,5320
+1993,France,31000
+1993,Germany,105590
+1993,Netherlands,27490
+1993,Switzerland,30550
+1993,Denmark,11580
+1993,Finland,4710
+1993,Norway,4640
+1993,Sweden,17600
+1993,Italy,31630
+1993,Spain,5450
+1993,Poland,2410
+1993,Russia,540
+1993,Iran,1120
+1993,Israel,5510
+1993,Saudi Arabia,3410
+1993,United Arab Emirates,1950
+1993,Cambodia,510
+1993,Thailand,46450
+1993,Vietnam,3320
+1993,Indonesia,71550
+1993,Malaysia,80400
+1993,Philippines,17920
+1993,Singapore,154900
+1993,China,22270
+1993,Hong Kong,92010
+1993,Taiwan,108720
+1993,Japan,670820
+1993,South Korea,62020
+1993,Bangladesh,700
+1993,India,9770
+1993,Nepal,340
+1993,Pakistan,1390
+1993,Sri Lanka,3630
+1993,Canada,50530
+1993,United States of America,281270
+1993,Argentina,3870
+1993,Brazil,2670
+1993,Chile,1580
+1993,Colombia,570
+1993,Mexico,2070
+1993,South Africa,26420
+1994,New Zealand,480350
+1994,New Caledonia,20210
+1994,Papua New Guinea,41930
+1994,Vanuatu,3950
+1994,Fiji,19490
+1994,United Kingdom,335310
+1994,Ireland,15160
+1994,Austria,15520
+1994,Belgium,7000
+1994,France,34520
+1994,Germany,122690
+1994,Netherlands,30920
+1994,Switzerland,36360
+1994,Denmark,14650
+1994,Finland,5540
+1994,Norway,5770
+1994,Sweden,20170
+1994,Italy,36690
+1994,Spain,6860
+1994,Poland,3160
+1994,Russia,2750
+1994,Iran,1300
+1994,Israel,6870
+1994,Saudi Arabia,2960
+1994,United Arab Emirates,2820
+1994,Cambodia,550
+1994,Thailand,66820
+1994,Vietnam,4070
+1994,Indonesia,105710
+1994,Malaysia,95070
+1994,Philippines,21670
+1994,Singapore,187640
+1994,China,29690
+1994,Hong Kong,109540
+1994,Taiwan,142530
+1994,Japan,721090
+1994,South Korea,110270
+1994,Bangladesh,600
+1994,India,12090
+1994,Nepal,500
+1994,Pakistan,1840
+1994,Sri Lanka,4420
+1994,Canada,54280
+1994,United States of America,289680
+1994,Argentina,5270
+1994,Brazil,3880
+1994,Chile,2040
+1994,Colombia,810
+1994,Mexico,2410
+1994,South Africa,30260
+1995,New Zealand,538380
+1995,New Caledonia,21400
+1995,Papua New Guinea,42270
+1995,Vanuatu,3550
+1995,Fiji,18990
+1995,United Kingdom,347890
+1995,Ireland,17360
+1995,Austria,16950
+1995,Belgium,7660
+1995,France,35200
+1995,Germany,124190
+1995,Netherlands,34530
+1995,Switzerland,35280
+1995,Denmark,15740
+1995,Finland,5810
+1995,Norway,6640
+1995,Sweden,22440
+1995,Italy,36810
+1995,Spain,7330
+1995,Poland,3410
+1995,Russia,2820
+1995,Iran,1270
+1995,Israel,8130
+1995,Saudi Arabia,3010
+1995,United Arab Emirates,3260
+1995,Cambodia,500
+1995,Thailand,81320
+1995,Vietnam,4780
+1995,Indonesia,134950
+1995,Malaysia,108200
+1995,Philippines,26940
+1995,Singapore,202360
+1995,China,42600
+1995,Hong Kong,131690
+1995,Taiwan,151970
+1995,Japan,782680
+1995,South Korea,167970
+1995,Bangladesh,920
+1995,India,17140
+1995,Nepal,860
+1995,Pakistan,2320
+1995,Sri Lanka,5890
+1995,Canada,58370
+1995,United States of America,304880
+1995,Argentina,4640
+1995,Brazil,4710
+1995,Chile,2240
+1995,Colombia,970
+1995,Mexico,1860
+1995,South Africa,32750
+1996,New Zealand,671880
+1996,New Caledonia,23470
+1996,Papua New Guinea,43480
+1996,Vanuatu,3670
+1996,Fiji,21250
+1996,United Kingdom,367530
+1996,Ireland,20820
+1996,Austria,17400
+1996,Belgium,9140
+1996,France,34950
+1996,Germany,125400
+1996,Netherlands,38820
+1996,Switzerland,39420
+1996,Denmark,17330
+1996,Finland,6640
+1996,Norway,7240
+1996,Sweden,23450
+1996,Italy,40570
+1996,Spain,8110
+1996,Poland,3730
+1996,Russia,1850
+1996,Iran,1430
+1996,Israel,9360
+1996,Saudi Arabia,2960
+1996,United Arab Emirates,5770
+1996,Cambodia,390
+1996,Thailand,88920
+1996,Vietnam,5350
+1996,Indonesia,154440
+1996,Malaysia,134410
+1996,Philippines,33570
+1996,Singapore,222820
+1996,China,53980
+1996,Hong Kong,153190
+1996,Taiwan,159400
+1996,Japan,813100
+1996,South Korea,227860
+1996,Bangladesh,1050
+1996,India,21340
+1996,Nepal,890
+1996,Pakistan,2740
+1996,Sri Lanka,6810
+1996,Canada,61130
+1996,United States of America,316880
+1996,Argentina,5350
+1996,Brazil,7060
+1996,Chile,2420
+1996,Colombia,1010
+1996,Mexico,2220
+1996,South Africa,42640
+1997,New Zealand,685650
+1997,New Caledonia,21780
+1997,Papua New Guinea,43970
+1997,Vanuatu,3270
+1997,Fiji,20010
+1997,United Kingdom,410630
+1997,Ireland,25300
+1997,Austria,19550
+1997,Belgium,9240
+1997,France,40000
+1997,Germany,128870
+1997,Netherlands,42030
+1997,Switzerland,38610
+1997,Denmark,16990
+1997,Finland,6760
+1997,Norway,9440
+1997,Sweden,24030
+1997,Italy,45840
+1997,Spain,9380
+1997,Poland,4230
+1997,Russia,2710
+1997,Iran,1720
+1997,Israel,10600
+1997,Saudi Arabia,3680
+1997,United Arab Emirates,5830
+1997,Cambodia,1020
+1997,Thailand,68580
+1997,Vietnam,7090
+1997,Indonesia,160380
+1997,Malaysia,143680
+1997,Philippines,41070
+1997,Singapore,239290
+1997,China,65850
+1997,Hong Kong,151720
+1997,Taiwan,153250
+1997,Japan,813890
+1997,South Korea,233810
+1997,Bangladesh,1490
+1997,India,26140
+1997,Nepal,690
+1997,Pakistan,3040
+1997,Sri Lanka,6020
+1997,Canada,64770
+1997,United States of America,329580
+1997,Argentina,5610
+1997,Brazil,8320
+1997,Chile,2490
+1997,Colombia,1700
+1997,Mexico,2570
+1997,South Africa,45190
+1998,New Zealand,709410
+1998,New Caledonia,23670
+1998,Papua New Guinea,44910
+1998,Vanuatu,4230
+1998,Fiji,22670
+1998,United Kingdom,467550
+1998,Ireland,31020
+1998,Austria,16920
+1998,Belgium,9430
+1998,France,42970
+1998,Germany,127380
+1998,Netherlands,46980
+1998,Switzerland,40330
+1998,Denmark,18200
+1998,Finland,6250
+1998,Norway,10560
+1998,Sweden,26830
+1998,Italy,47840
+1998,Spain,10590
+1998,Poland,4530
+1998,Russia,2990
+1998,Iran,1170
+1998,Israel,10960
+1998,Saudi Arabia,3530
+1998,United Arab Emirates,10160
+1998,Cambodia,1440
+1998,Thailand,49120
+1998,Vietnam,8630
+1998,Indonesia,93040
+1998,Malaysia,112090
+1998,Philippines,35380
+1998,Singapore,247080
+1998,China,76560
+1998,Hong Kong,143420
+1998,Taiwan,149940
+1998,Japan,751130
+1998,South Korea,66640
+1998,Bangladesh,2020
+1998,India,29390
+1998,Nepal,960
+1998,Pakistan,2970
+1998,Sri Lanka,6820
+1998,Canada,71700
+1998,United States of America,373910
+1998,Argentina,6570
+1998,Brazil,8640
+1998,Chile,2920
+1998,Colombia,1650
+1998,Mexico,2850
+1998,South Africa,56910
+1999,New Zealand,728790
+1999,New Caledonia,25010
+1999,Papua New Guinea,50430
+1999,Vanuatu,5490
+1999,Fiji,25910
+1999,United Kingdom,528440
+1999,Ireland,40450
+1999,Austria,17350
+1999,Belgium,10380
+1999,France,49140
+1999,Germany,144500
+1999,Netherlands,52280
+1999,Switzerland,45090
+1999,Denmark,18480
+1999,Finland,7750
+1999,Norway,11910
+1999,Sweden,29450
+1999,Italy,51430
+1999,Spain,12790
+1999,Poland,5120
+1999,Russia,3270
+1999,Iran,1240
+1999,Israel,12470
+1999,Saudi Arabia,4260
+1999,United Arab Emirates,14250
+1999,Cambodia,1180
+1999,Thailand,61850
+1999,Vietnam,8920
+1999,Indonesia,90990
+1999,Malaysia,139780
+1999,Philippines,40270
+1999,Singapore,266960
+1999,China,92590
+1999,Hong Kong,139560
+1999,Taiwan,147510
+1999,Japan,707480
+1999,South Korea,108630
+1999,Bangladesh,2630
+1999,India,33640
+1999,Nepal,830
+1999,Pakistan,3050
+1999,Sri Lanka,8130
+1999,Canada,78380
+1999,United States of America,417040
+1999,Argentina,8780
+1999,Brazil,8530
+1999,Chile,2830
+1999,Colombia,1740
+1999,Mexico,3750
+1999,South Africa,57950
+2000,New Zealand,817030
+2000,New Caledonia,25270
+2000,Papua New Guinea,44470
+2000,Vanuatu,6460
+2000,Fiji,23160
+2000,United Kingdom,580440
+2000,Ireland,46440
+2000,Austria,18570
+2000,Belgium,11800
+2000,France,57330
+2000,Germany,143260
+2000,Netherlands,61250
+2000,Switzerland,47850
+2000,Denmark,20680
+2000,Finland,9450
+2000,Norway,16580
+2000,Sweden,36780
+2000,Italy,57930
+2000,Spain,16350
+2000,Poland,6780
+2000,Russia,6180
+2000,Iran,1610
+2000,Israel,13120
+2000,Saudi Arabia,4370
+2000,United Arab Emirates,13450
+2000,Cambodia,1340
+2000,Thailand,72750
+2000,Vietnam,8820
+2000,Indonesia,98110
+2000,Malaysia,152080
+2000,Philippines,39180
+2000,Singapore,285730
+2000,China,120260
+2000,Hong Kong,154100
+2000,Taiwan,134350
+2000,Japan,720980
+2000,South Korea,157390
+2000,Bangladesh,3310
+2000,India,41450
+2000,Nepal,1060
+2000,Pakistan,2510
+2000,Sri Lanka,9460
+2000,Canada,88290
+2000,United States of America,488120
+2000,Argentina,9580
+2000,Brazil,13390
+2000,Chile,3240
+2000,Colombia,2490
+2000,Mexico,6230
+2000,South Africa,59510
+2001,New Zealand,814880
+2001,New Caledonia,28710
+2001,Papua New Guinea,38950
+2001,Vanuatu,4870
+2001,Fiji,24520
+2001,United Kingdom,617200
+2001,Ireland,51570
+2001,Austria,17940
+2001,Belgium,10460
+2001,France,50030
+2001,Germany,147610
+2001,Netherlands,56510
+2001,Switzerland,46220
+2001,Denmark,18340
+2001,Finland,7250
+2001,Norway,16570
+2001,Sweden,31650
+2001,Italy,43310
+2001,Spain,12420
+2001,Poland,6460
+2001,Russia,4410
+2001,Iran,1920
+2001,Israel,14560
+2001,Saudi Arabia,4090
+2001,United Arab Emirates,13970
+2001,Cambodia,1410
+2001,Thailand,79950
+2001,Vietnam,9300
+2001,Indonesia,97880
+2001,Malaysia,149410
+2001,Philippines,30410
+2001,Singapore,296000
+2001,China,157940
+2001,Hong Kong,154150
+2001,Taiwan,110080
+2001,Japan,673570
+2001,South Korea,175600
+2001,Bangladesh,3250
+2001,India,48200
+2001,Nepal,1130
+2001,Pakistan,2660
+2001,Sri Lanka,8290
+2001,Canada,93150
+2001,United States of America,446450
+2001,Argentina,7870
+2001,Brazil,11610
+2001,Chile,3780
+2001,Colombia,2200
+2001,Mexico,4680
+2001,South Africa,54940
+2002,New Zealand,790080
+2002,New Caledonia,30500
+2002,Papua New Guinea,31260
+2002,Vanuatu,5260
+2002,Fiji,23170
+2002,United Kingdom,642650
+2002,Ireland,48040
+2002,Austria,19020
+2002,Belgium,10800
+2002,France,49550
+2002,Germany,134810
+2002,Netherlands,53000
+2002,Switzerland,41510
+2002,Denmark,18870
+2002,Finland,6530
+2002,Norway,16860
+2002,Sweden,30890
+2002,Italy,43300
+2002,Spain,12440
+2002,Poland,8760
+2002,Russia,4360
+2002,Iran,1770
+2002,Israel,15060
+2002,Saudi Arabia,4060
+2002,United Arab Emirates,13300
+2002,Cambodia,1170
+2002,Thailand,82660
+2002,Vietnam,9240
+2002,Indonesia,89430
+2002,Malaysia,159000
+2002,Philippines,28460
+2002,Singapore,286860
+2002,China,190020
+2002,Hong Kong,150950
+2002,Taiwan,97420
+2002,Japan,715460
+2002,South Korea,189730
+2002,Bangladesh,3140
+2002,India,45020
+2002,Nepal,920
+2002,Pakistan,2070
+2002,Sri Lanka,7190
+2002,Canada,90870
+2002,United States of America,434500
+2002,Argentina,4360
+2002,Brazil,10240
+2002,Chile,3010
+2002,Colombia,1600
+2002,Mexico,5400
+2002,South Africa,50970
+2003,New Zealand,839090
+2003,New Caledonia,33600
+2003,Papua New Guinea,27310
+2003,Vanuatu,5250
+2003,Fiji,25470
+2003,United Kingdom,672810
+2003,Ireland,52960
+2003,Austria,18810
+2003,Belgium,9860
+2003,France,51380
+2003,Germany,137890
+2003,Netherlands,50950
+2003,Switzerland,40910
+2003,Denmark,19010
+2003,Finland,7680
+2003,Norway,17180
+2003,Sweden,31800
+2003,Italy,41320
+2003,Spain,12430
+2003,Poland,5490
+2003,Russia,5050
+2003,Iran,1760
+2003,Israel,13340
+2003,Saudi Arabia,4040
+2003,United Arab Emirates,15230
+2003,Cambodia,1300
+2003,Thailand,73160
+2003,Vietnam,9450
+2003,Indonesia,90270
+2003,Malaysia,155610
+2003,Philippines,27010
+2003,Singapore,253360
+2003,China,176140
+2003,Hong Kong,129290
+2003,Taiwan,87740
+2003,Japan,627740
+2003,South Korea,207280
+2003,Bangladesh,3400
+2003,India,45610
+2003,Nepal,830
+2003,Pakistan,2610
+2003,Sri Lanka,8550
+2003,Canada,87920
+2003,United States of America,422130
+2003,Argentina,3710
+2003,Brazil,8310
+2003,Chile,3460
+2003,Colombia,1410
+2003,Mexico,5270
+2003,South Africa,52730
+2004,New Zealand,1029460
+2004,New Caledonia,35910
+2004,Papua New Guinea,25710
+2004,Vanuatu,6870
+2004,Fiji,25270
+2004,United Kingdom,679320
+2004,Ireland,54440
+2004,Austria,18160
+2004,Belgium,11210
+2004,France,58430
+2004,Germany,141760
+2004,Netherlands,48700
+2004,Switzerland,42100
+2004,Denmark,20760
+2004,Finland,9550
+2004,Norway,17170
+2004,Sweden,33990
+2004,Italy,47410
+2004,Spain,16040
+2004,Poland,6260
+2004,Russia,6250
+2004,Iran,2180
+2004,Israel,14310
+2004,Saudi Arabia,4860
+2004,United Arab Emirates,18660
+2004,Cambodia,1970
+2004,Thailand,77680
+2004,Vietnam,11270
+2004,Indonesia,83630
+2004,Malaysia,165070
+2004,Philippines,31280
+2004,Singapore,243900
+2004,China,250210
+2004,Hong Kong,135640
+2004,Taiwan,98600
+2004,Japan,707090
+2004,South Korea,213580
+2004,Bangladesh,3510
+2004,India,54710
+2004,Nepal,840
+2004,Pakistan,2580
+2004,Sri Lanka,9820
+2004,Canada,100170
+2004,United States of America,431170
+2004,Argentina,3630
+2004,Brazil,10430
+2004,Chile,3960
+2004,Colombia,1420
+2004,Mexico,5110
+2004,South Africa,50100
+2005,New Zealand,1088020
+2005,New Caledonia,37810
+2005,Papua New Guinea,27540
+2005,Vanuatu,6730
+2005,Fiji,26780
+2005,United Kingdom,714810
+2005,Ireland,61890
+2005,Austria,18240
+2005,Belgium,12160
+2005,France,65750
+2005,Germany,149060
+2005,Netherlands,51010
+2005,Switzerland,42870
+2005,Denmark,23150
+2005,Finland,10100
+2005,Norway,17050
+2005,Sweden,36420
+2005,Italy,51530
+2005,Spain,17060
+2005,Poland,6630
+2005,Russia,7390
+2005,Iran,2710
+2005,Israel,15710
+2005,Saudi Arabia,6100
+2005,United Arab Emirates,19240
+2005,Cambodia,2510
+2005,Thailand,72960
+2005,Vietnam,13620
+2005,Indonesia,82690
+2005,Malaysia,161710
+2005,Philippines,33900
+2005,Singapore,248140
+2005,China,282730
+2005,Hong Kong,156180
+2005,Taiwan,110790
+2005,Japan,679970
+2005,South Korea,254630
+2005,Bangladesh,2750
+2005,India,65800
+2005,Nepal,1070
+2005,Pakistan,3480
+2005,Sri Lanka,10220
+2005,Canada,106730
+2005,United States of America,442650
+2005,Argentina,4160
+2005,Brazil,12960
+2005,Chile,4860
+2005,Colombia,1990
+2005,Mexico,5350
+2005,South Africa,51090
+2006,New Zealand,1065210
+2006,New Caledonia,39700
+2006,Papua New Guinea,29890
+2006,Vanuatu,6890
+2006,Fiji,26990
+2006,United Kingdom,744670
+2006,Ireland,61290
+2006,Austria,18170
+2006,Belgium,13290
+2006,France,69710
+2006,Germany,151840
+2006,Netherlands,52870
+2006,Switzerland,44230
+2006,Denmark,23840
+2006,Finland,10520
+2006,Norway,16310
+2006,Sweden,37100
+2006,Italy,52610
+2006,Spain,18640
+2006,Poland,6980
+2006,Russia,9240
+2006,Iran,3200
+2006,Israel,15010
+2006,Saudi Arabia,6590
+2006,United Arab Emirates,19970
+2006,Cambodia,3200
+2006,Thailand,68590
+2006,Vietnam,17980
+2006,Indonesia,82470
+2006,Malaysia,145990
+2006,Philippines,37570
+2006,Singapore,229010
+2006,China,305570
+2006,Hong Kong,147730
+2006,Taiwan,94270
+2006,Japan,645910
+2006,South Korea,266490
+2006,Bangladesh,2980
+2006,India,80710
+2006,Nepal,1440
+2006,Pakistan,3880
+2006,Sri Lanka,11630
+2006,Canada,115810
+2006,United States of America,452250
+2006,Argentina,5050
+2006,Brazil,16960
+2006,Chile,6470
+2006,Colombia,2840
+2006,Mexico,6140
+2006,South Africa,55660
+2007,New Zealand,1128940
+2007,New Caledonia,41400
+2007,Papua New Guinea,31880
+2007,Vanuatu,7830
+2007,Fiji,24400
+2007,United Kingdom,705730
+2007,Ireland,70120
+2007,Austria,18190
+2007,Belgium,14850
+2007,France,77690
+2007,Germany,156400
+2007,Netherlands,53750
+2007,Switzerland,43920
+2007,Denmark,23600
+2007,Finland,12130
+2007,Norway,16930
+2007,Sweden,36870
+2007,Italy,55130
+2007,Spain,21200
+2007,Poland,8690
+2007,Russia,12320
+2007,Iran,4410
+2007,Israel,15950
+2007,Saudi Arabia,7530
+2007,United Arab Emirates,26660
+2007,Cambodia,3760
+2007,Thailand,74170
+2007,Vietnam,25030
+2007,Indonesia,89910
+2007,Malaysia,152910
+2007,Philippines,44050
+2007,Singapore,232850
+2007,China,354610
+2007,Hong Kong,138780
+2007,Taiwan,93440
+2007,Japan,569710
+2007,South Korea,259380
+2007,Bangladesh,3540
+2007,India,90360
+2007,Nepal,2270
+2007,Pakistan,4660
+2007,Sri Lanka,11930
+2007,Canada,123690
+2007,United States of America,458610
+2007,Argentina,5970
+2007,Brazil,20020
+2007,Chile,8310
+2007,Colombia,4410
+2007,Mexico,7220
+2007,South Africa,61630
+2008,New Zealand,1104680
+2008,New Caledonia,45880
+2008,Papua New Guinea,38160
+2008,Vanuatu,7720
+2008,Fiji,27230
+2008,United Kingdom,696220
+2008,Ireland,71130
+2008,Austria,17900
+2008,Belgium,15060
+2008,France,93590
+2008,Germany,165870
+2008,Netherlands,58100
+2008,Switzerland,42310
+2008,Denmark,25370
+2008,Finland,11890
+2008,Norway,18590
+2008,Sweden,36530
+2008,Italy,61750
+2008,Spain,27520
+2008,Poland,11110
+2008,Russia,13700
+2008,Iran,4830
+2008,Israel,16510
+2008,Saudi Arabia,9920
+2008,United Arab Emirates,32470
+2008,Cambodia,4460
+2008,Thailand,71480
+2008,Vietnam,31610
+2008,Indonesia,94970
+2008,Malaysia,165690
+2008,Philippines,52090
+2008,Singapore,230920
+2008,China,354360
+2008,Hong Kong,131530
+2008,Taiwan,78090
+2008,Japan,455560
+2008,South Korea,222820
+2008,Bangladesh,3780
+2008,India,108830
+2008,Nepal,2540
+2008,Pakistan,5030
+2008,Sri Lanka,12980
+2008,Canada,135230
+2008,United States of America,462820
+2008,Argentina,5650
+2008,Brazil,26110
+2008,Chile,10360
+2008,Colombia,6050
+2008,Mexico,7740
+2008,South Africa,67420
+2009,New Zealand,1099910
+2009,New Caledonia,45950
+2009,Papua New Guinea,42840
+2009,Vanuatu,9370
+2009,Fiji,29920
+2009,United Kingdom,684590
+2009,Ireland,65230
+2009,Austria,17500
+2009,Belgium,16270
+2009,France,101950
+2009,Germany,165360
+2009,Netherlands,55130
+2009,Switzerland,46630
+2009,Denmark,25160
+2009,Finland,12610
+2009,Norway,18600
+2009,Sweden,34750
+2009,Italy,57750
+2009,Spain,23090
+2009,Poland,8940
+2009,Russia,13420
+2009,Iran,5180
+2009,Israel,14830
+2009,Saudi Arabia,12210
+2009,United Arab Emirates,30110
+2009,Cambodia,5350
+2009,Thailand,73740
+2009,Vietnam,33490
+2009,Indonesia,107190
+2009,Malaysia,204200
+2009,Philippines,52170
+2009,Singapore,246490
+2009,China,362690
+2009,Hong Kong,144150
+2009,Taiwan,99140
+2009,Japan,354000
+2009,South Korea,185710
+2009,Bangladesh,5120
+2009,India,119420
+2009,Nepal,3930
+2009,Pakistan,6480
+2009,Sri Lanka,13200
+2009,Canada,133450
+2009,United States of America,484340
+2009,Argentina,7860
+2009,Brazil,27060
+2009,Chile,10260
+2009,Colombia,6470
+2009,Mexico,7040
+2009,South Africa,59500
+2010,New Zealand,1150210
+2010,New Caledonia,46450
+2010,Papua New Guinea,47300
+2010,Vanuatu,9860
+2010,Fiji,30700
+2010,United Kingdom,673430
+2010,Ireland,55300
+2010,Austria,17050
+2010,Belgium,17950
+2010,France,107270
+2010,Germany,166210
+2010,Netherlands,53630
+2010,Switzerland,47270
+2010,Denmark,23920
+2010,Finland,12450
+2010,Norway,19930
+2010,Sweden,36480
+2010,Italy,58800
+2010,Spain,23920
+2010,Poland,9370
+2010,Russia,14730
+2010,Iran,7430
+2010,Israel,15210
+2010,Saudi Arabia,13460
+2010,United Arab Emirates,33630
+2010,Cambodia,5450
+2010,Thailand,74860
+2010,Vietnam,35660
+2010,Indonesia,121880
+2010,Malaysia,226410
+2010,Philippines,59070
+2010,Singapore,265100
+2010,China,451810
+2010,Hong Kong,150550
+2010,Taiwan,87670
+2010,Japan,396370
+2010,South Korea,218610
+2010,Bangladesh,6270
+2010,India,138560
+2010,Nepal,4640
+2010,Pakistan,8250
+2010,Sri Lanka,16350
+2010,Canada,135490
+2010,United States of America,479280
+2010,Argentina,7940
+2010,Brazil,28580
+2010,Chile,9640
+2010,Colombia,6570
+2010,Mexico,6680
+2010,South Africa,60880
+2011,New Zealand,1166830
+2011,New Caledonia,41990
+2011,Papua New Guinea,50070
+2011,Vanuatu,10220
+2011,Fiji,29040
+2011,United Kingdom,637360
+2011,Ireland,60670
+2011,Austria,15130
+2011,Belgium,17330
+2011,France,105820
+2011,Germany,160410
+2011,Netherlands,50320
+2011,Switzerland,46300
+2011,Denmark,23410
+2011,Finland,12570
+2011,Norway,19190
+2011,Sweden,36690
+2011,Italy,57910
+2011,Spain,23910
+2011,Poland,9170
+2011,Russia,15910
+2011,Iran,8670
+2011,Israel,13080
+2011,Saudi Arabia,13370
+2011,United Arab Emirates,27710
+2011,Cambodia,5120
+2011,Thailand,75680
+2011,Vietnam,32960
+2011,Indonesia,136930
+2011,Malaysia,228000
+2011,Philippines,65890
+2011,Singapore,266190
+2011,China,540540
+2011,Hong Kong,154000
+2011,Taiwan,86270
+2011,Japan,332280
+2011,South Korea,204480
+2011,Bangladesh,7170
+2011,India,149180
+2011,Nepal,4540
+2011,Pakistan,9110
+2011,Sri Lanka,17020
+2011,Canada,130820
+2011,United States of America,469270
+2011,Argentina,8840
+2011,Brazil,30890
+2011,Chile,10560
+2011,Colombia,7240
+2011,Mexico,6670
+2011,South Africa,63550
+2012,New Zealand,1193120
+2012,New Caledonia,39080
+2012,Papua New Guinea,56450
+2012,Vanuatu,9300
+2012,Fiji,29720
+2012,United Kingdom,625980
+2012,Ireland,62550
+2012,Austria,15620
+2012,Belgium,18040
+2012,France,110880
+2012,Germany,160740
+2012,Netherlands,46810
+2012,Switzerland,47120
+2012,Denmark,23900
+2012,Finland,13990
+2012,Norway,20450
+2012,Sweden,39070
+2012,Italy,65620
+2012,Spain,25370
+2012,Poland,9920
+2012,Russia,19090
+2012,Iran,9370
+2012,Israel,11110
+2012,Saudi Arabia,13650
+2012,United Arab Emirates,27650
+2012,Cambodia,5050
+2012,Thailand,71950
+2012,Vietnam,36940
+2012,Indonesia,141860
+2012,Malaysia,247630
+2012,Philippines,74300
+2012,Singapore,287310
+2012,China,628100
+2012,Hong Kong,162890
+2012,Taiwan,98340
+2012,Japan,352570
+2012,South Korea,205270
+2012,Bangladesh,7730
+2012,India,164260
+2012,Nepal,6460
+2012,Pakistan,10150
+2012,Sri Lanka,19220
+2012,Canada,136290
+2012,United States of America,500360
+2012,Argentina,13210
+2012,Brazil,33020
+2012,Chile,13630
+2012,Colombia,8730
+2012,Mexico,6660
+2012,South Africa,57040
+2013,New Zealand,1201250
+2013,New Caledonia,38860
+2013,Papua New Guinea,56600
+2013,Vanuatu,9950
+2013,Fiji,30540
+2013,United Kingdom,668230
+2013,Ireland,63700
+2013,Austria,16130
+2013,Belgium,19070
+2013,France,114800
+2013,Germany,170090
+2013,Netherlands,45540
+2013,Switzerland,48980
+2013,Denmark,23970
+2013,Finland,13640
+2013,Norway,20540
+2013,Sweden,40670
+2013,Italy,71670
+2013,Spain,25870
+2013,Poland,11580
+2013,Russia,20030
+2013,Iran,7120
+2013,Israel,12310
+2013,Saudi Arabia,13600
+2013,United Arab Emirates,32340
+2013,Cambodia,5070
+2013,Thailand,78590
+2013,Vietnam,40900
+2013,Indonesia,146790
+2013,Malaysia,281390
+2013,Philippines,74550
+2013,Singapore,333140
+2013,China,720760
+2013,Hong Kong,182970
+2013,Taiwan,109320
+2013,Japan,330800
+2013,South Korea,198870
+2013,Bangladesh,8110
+2013,India,176830
+2013,Nepal,6500
+2013,Pakistan,10260
+2013,Sri Lanka,19150
+2013,Canada,136290
+2013,United States of America,516250
+2013,Argentina,14930
+2013,Brazil,36430
+2013,Chile,15930
+2013,Colombia,10250
+2013,Mexico,7680
+2013,South Africa,54770
+2014,New Zealand,1244800
+2014,New Caledonia,43050
+2014,Papua New Guinea,53980
+2014,Vanuatu,8690
+2014,Fiji,31750
+2014,United Kingdom,657190
+2014,Ireland,61690
+2014,Austria,16870
+2014,Belgium,21550
+2014,France,123520
+2014,Germany,183740
+2014,Netherlands,46740
+2014,Switzerland,52040
+2014,Denmark,24580
+2014,Finland,14070
+2014,Norway,22010
+2014,Sweden,42470
+2014,Italy,74220
+2014,Spain,29650
+2014,Poland,13550
+2014,Russia,19710
+2014,Iran,7750
+2014,Israel,11740
+2014,Saudi Arabia,15240
+2014,United Arab Emirates,35340
+2014,Cambodia,5110
+2014,Thailand,76780
+2014,Vietnam,48100
+2014,Indonesia,155000
+2014,Malaysia,326730
+2014,Philippines,81820
+2014,Singapore,362680
+2014,China,851030
+2014,Hong Kong,201340
+2014,Taiwan,120120
+2014,Japan,333750
+2014,South Korea,202820
+2014,Bangladesh,10250
+2014,India,200100
+2014,Nepal,8110
+2014,Pakistan,10880
+2014,Sri Lanka,21300
+2014,Canada,140110
+2014,United States of America,561700
+2014,Argentina,11290
+2014,Brazil,44700
+2014,Chile,16780
+2014,Colombia,10760
+2014,Mexico,8450
+2014,South Africa,53850
+2015,New Zealand,1311950
+2015,New Caledonia,48630
+2015,Papua New Guinea,53660
+2015,Vanuatu,9360
+2015,Fiji,32020
+2015,United Kingdom,688190
+2015,Ireland,58120
+2015,Austria,16880
+2015,Belgium,20300
+2015,France,124700
+2015,Germany,185280
+2015,Netherlands,46030
+2015,Switzerland,52990
+2015,Denmark,25090
+2015,Finland,14450
+2015,Norway,21250
+2015,Sweden,43590
+2015,Italy,73370
+2015,Spain,35070
+2015,Poland,15420
+2015,Russia,13950
+2015,Iran,9360
+2015,Israel,12880
+2015,Saudi Arabia,14880
+2015,United Arab Emirates,38830
+2015,Cambodia,6640
+2015,Thailand,78110
+2015,Vietnam,57330
+2015,Indonesia,157530
+2015,Malaysia,340680
+2015,Philippines,95240
+2015,Singapore,387150
+2015,China,1031900
+2015,Hong Kong,217880
+2015,Taiwan,131230
+2015,Japan,341990
+2015,South Korea,226780
+2015,Bangladesh,11540
+2015,India,235790
+2015,Nepal,10570
+2015,Pakistan,11460
+2015,Sri Lanka,26960
+2015,Canada,141570
+2015,United States of America,618630
+2015,Argentina,11090
+2015,Brazil,45590
+2015,Chile,18050
+2015,Colombia,11960
+2015,Mexico,8860
+2015,South Africa,55950
+2016,New Zealand,1345190
+2016,New Caledonia,49380
+2016,Papua New Guinea,52450
+2016,Vanuatu,10320
+2016,Fiji,36680
+2016,United Kingdom,715550
+2016,Ireland,56680
+2016,Austria,18890
+2016,Belgium,20950
+2016,France,129100
+2016,Germany,199260
+2016,Netherlands,50640
+2016,Switzerland,54040
+2016,Denmark,28730
+2016,Finland,15050
+2016,Norway,21440
+2016,Sweden,44700
+2016,Italy,76400
+2016,Spain,40260
+2016,Poland,17540
+2016,Russia,13600
+2016,Iran,12020
+2016,Israel,13190
+2016,Saudi Arabia,13800
+2016,United Arab Emirates,40900
+2016,Cambodia,9250
+2016,Thailand,91720
+2016,Vietnam,70050
+2016,Indonesia,180600
+2016,Malaysia,389960
+2016,Philippines,113050
+2016,Singapore,429760
+2016,China,1208240
+2016,Hong Kong,247680
+2016,Taiwan,162960
+2016,Japan,417870
+2016,South Korea,280100
+2016,Bangladesh,12130
+2016,India,262260
+2016,Nepal,15070
+2016,Pakistan,14420
+2016,Sri Lanka,30760
+2016,Canada,152140
+2016,United States of America,716530
+2016,Argentina,18710
+2016,Brazil,47240
+2016,Chile,23060
+2016,Colombia,13820
+2016,Mexico,9130
+2016,South Africa,56390
+2017,New Zealand,1359510
+2017,New Caledonia,50420
+2017,Papua New Guinea,50530
+2017,Vanuatu,12690
+2017,Fiji,41670
+2017,United Kingdom,732890
+2017,Ireland,57160
+2017,Austria,18440
+2017,Belgium,21480
+2017,France,129620
+2017,Germany,208350
+2017,Netherlands,55450
+2017,Switzerland,56560
+2017,Denmark,28530
+2017,Finland,16180
+2017,Norway,22200
+2017,Sweden,47340
+2017,Italy,75300
+2017,Spain,40410
+2017,Poland,18300
+2017,Russia,15240
+2017,Iran,13990
+2017,Israel,14110
+2017,Saudi Arabia,12790
+2017,United Arab Emirates,45150
+2017,Cambodia,10270
+2017,Thailand,97870
+2017,Vietnam,93860
+2017,Indonesia,192790
+2017,Malaysia,396770
+2017,Philippines,127300
+2017,Singapore,432970
+2017,China,1356910
+2017,Hong Kong,281200
+2017,Taiwan,179930
+2017,Japan,434550
+2017,South Korea,302210
+2017,Bangladesh,16680
+2017,India,302570
+2017,Nepal,19960
+2017,Pakistan,17780
+2017,Sri Lanka,35540
+2017,Canada,167580
+2017,United States of America,780570
+2017,Argentina,23550
+2017,Brazil,55720
+2017,Chile,24870
+2017,Colombia,16010
+2017,Mexico,11420
+2017,South Africa,56040
+2018,New Zealand,1385000
+2018,New Caledonia,53770
+2018,Papua New Guinea,48720
+2018,Vanuatu,14560
+2018,Fiji,45640
+2018,United Kingdom,733450
+2018,Ireland,62340
+2018,Austria,19050
+2018,Belgium,23070
+2018,France,142600
+2018,Germany,207120
+2018,Netherlands,59750
+2018,Switzerland,57930
+2018,Denmark,30490
+2018,Finland,16950
+2018,Norway,24280
+2018,Sweden,45600
+2018,Italy,77900
+2018,Spain,47080
+2018,Poland,19950
+2018,Russia,16310
+2018,Iran,13280
+2018,Israel,15730
+2018,Saudi Arabia,13760
+2018,United Arab Emirates,41680
+2018,Cambodia,12340
+2018,Thailand,99410
+2018,Vietnam,110820
+2018,Indonesia,208910
+2018,Malaysia,401170
+2018,Philippines,143700
+2018,Singapore,447980
+2018,China,1432140
+2018,Hong Kong,308750
+2018,Taiwan,202820
+2018,Japan,469330
+2018,South Korea,287990
+2018,Bangladesh,18830
+2018,India,357700
+2018,Nepal,29140
+2018,Pakistan,19650
+2018,Sri Lanka,42070
+2018,Canada,182100
+2018,United States of America,789110
+2018,Argentina,28980
+2018,Brazil,57820
+2018,Chile,30870
+2018,Colombia,19090
+2018,Mexico,11860
+2018,South Africa,59010
+2019,New Zealand,1433770
+2019,New Caledonia,54570
+2019,Papua New Guinea,49390
+2019,Vanuatu,17110
+2019,Fiji,45670
+2019,United Kingdom,715820
+2019,Ireland,67280
+2019,Austria,19520
+2019,Belgium,23600
+2019,France,143730
+2019,Germany,207090
+2019,Netherlands,64750
+2019,Switzerland,54730
+2019,Denmark,29650
+2019,Finland,16370
+2019,Norway,23390
+2019,Sweden,42610
+2019,Italy,75210
+2019,Spain,47460
+2019,Poland,21060
+2019,Russia,17910
+2019,Iran,10610
+2019,Israel,16280
+2019,Saudi Arabia,14510
+2019,United Arab Emirates,40380
+2019,Cambodia,15730
+2019,Thailand,102700
+2019,Vietnam,123460
+2019,Indonesia,221730
+2019,Malaysia,384900
+2019,Philippines,158550
+2019,Singapore,478500
+2019,China,1438670
+2019,Hong Kong,315150
+2019,Taiwan,194610
+2019,Japan,498640
+2019,South Korea,280480
+2019,Bangladesh,20250
+2019,India,399300
+2019,Nepal,38110
+2019,Pakistan,20910
+2019,Sri Lanka,43960
+2019,Canada,189610
+2019,United States of America,817990
+2019,Argentina,23830
+2019,Brazil,57950
+2019,Chile,29590
+2019,Colombia,21760
+2019,Mexico,13280
+2019,South Africa,61310
+2020,New Zealand,242440
+2020,New Caledonia,14010
+2020,Papua New Guinea,9300
+2020,Vanuatu,3810
+2020,Fiji,8600
+2020,United Kingdom,200800
+2020,Ireland,17080
+2020,Austria,4750
+2020,Belgium,5750
+2020,France,34710
+2020,Germany,53030
+2020,Netherlands,15260
+2020,Switzerland,13310
+2020,Denmark,8770
+2020,Finland,3970
+2020,Norway,5810
+2020,Sweden,11470
+2020,Italy,14980
+2020,Spain,11220
+2020,Poland,6430
+2020,Russia,5090
+2020,Iran,1910
+2020,Israel,3790
+2020,Saudi Arabia,4350
+2020,United Arab Emirates,7220
+2020,Cambodia,2860
+2020,Thailand,15100
+2020,Vietnam,28470
+2020,Indonesia,34360
+2020,Malaysia,44790
+2020,Philippines,26530
+2020,Singapore,58320
+2020,China,207690
+2020,Hong Kong,60930
+2020,Taiwan,35950
+2020,Japan,91720
+2020,South Korea,53520
+2020,Bangladesh,4530
+2020,India,83960
+2020,Nepal,7780
+2020,Pakistan,5930
+2020,Sri Lanka,8550
+2020,Canada,52290
+2020,United States of America,188680
+2020,Argentina,6870
+2020,Brazil,13060
+2020,Chile,7730
+2020,Colombia,5900
+2020,Mexico,3030
+2020,South Africa,11220
+2021,New Zealand,90620
+2021,New Caledonia,360
+2021,Papua New Guinea,620
+2021,Vanuatu,2540
+2021,Fiji,420
+2021,United Kingdom,5310
+2021,Ireland,550
+2021,Austria,150
+2021,Belgium,170
+2021,France,1010
+2021,Germany,970
+2021,Netherlands,540
+2021,Switzerland,300
+2021,Denmark,160
+2021,Finland,90
+2021,Norway,160
+2021,Sweden,210
+2021,Italy,670
+2021,Spain,370
+2021,Poland,250
+2021,Russia,240
+2021,Iran,80
+2021,Israel,180
+2021,Saudi Arabia,210
+2021,United Arab Emirates,1010
+2021,Cambodia,30
+2021,Thailand,470
+2021,Vietnam,310
+2021,Indonesia,880
+2021,Malaysia,680
+2021,Philippines,1920
+2021,Singapore,2670
+2021,China,2180
+2021,Hong Kong,1330
+2021,Taiwan,210
+2021,Japan,1030
+2021,South Korea,510
+2021,Bangladesh,110
+2021,India,2050
+2021,Nepal,70
+2021,Pakistan,130
+2021,Sri Lanka,230
+2021,Canada,960
+2021,United States of America,6730
+2021,Argentina,160
+2021,Brazil,180
+2021,Chile,80
+2021,Colombia,20
+2021,Mexico,50
+2021,South Africa,330

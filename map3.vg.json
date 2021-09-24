@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Short-term visitors arriving in Australia",
+    "fontSize": 40,
+    "subtitle": "By year and country of residence",
+    "subtitleFontSize": 20,
+    "subtitlePadding": 20
+  },
+  "projection": {
+    "type": "equirectangular"
+  },
+  "width": "container",
+  "height": "container",
+
+  "data": {
+    "url": "short_term_visitors_output.csv",
+    "format": { "type": "csv" }
+  },
+  "params": [
+    {
+      "name": "Year",
+      "value": 2020,
+      "bind": { "input": "range", "min": 1991, "max": 2020, "step": 1 }
+    }
+  ],
+  "transform": [
+    { "filter": "year(datum.year) === Year" },
+    {
+      "lookup": "name",
+      "from": {
+        "data": {
+          "url": "world.topojson",
+          "format": { "type": "topojson", "feature": "world.geo" }
+        },
+        "key": "properties.admin"
+      },
+      "as": "geo"
+    },
+    {
+      "lookup": "name",
+      "from": {
+        "data": {
+          "url": "centroids.csv",
+          "format": { "type": "csv" }
+        },
+        "key": "name",
+        "fields": ["lat", "long"]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "world2.topojson",
+        "format": { "type": "topojson", "feature": "world.geo" }
+      },
+      "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
+      "encoding": {
+        "color": { "value": "#eee" },
+        "tooltip": [
+          { "field": "properties.admin", "type": "nominal", "title": "Name" }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "geoshape",
+        "stroke": "black"
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "count",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "scheme": "oranges",
+            "domain": [100, 1000, 10000, 100000, 500000, 1000000]
+          },
+          "legend": {
+            "title": "Number of short-term visitors"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "geo.properties.admin",
+            "type": "nominal",
+            "title": "Name"
+          },
+          { "field": "count", "type": "quantitative", "title": "Visitors" }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "long",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "long"
+        },
+        "latitude2": {
+          "field": "lat"
+        },
+        "tooltip": [
+          {
+            "field": "geo.properties.admin",
+            "type": "nominal",
+            "title": "Name"
+          },
+          { "field": "count", "type": "quantitative", "title": "Visitors" }
+        ]
+      }
+    }
+  ]
+}
