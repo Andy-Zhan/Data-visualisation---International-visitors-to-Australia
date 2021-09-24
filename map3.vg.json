@@ -97,7 +97,8 @@
         "color": {
           "field": "count",
           "type": "quantitative",
-          "scale": { "domain": [0, 1438670], "scheme": "Oranges" }
+          "scale": { "domain": [0, 1438670], "scheme": "Oranges" },
+          "legend": { "title": "Number of short-term visitors" }
         },
         "opacity": { "value": 0.9 },
         "tooltip": [
