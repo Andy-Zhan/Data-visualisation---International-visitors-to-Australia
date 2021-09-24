@@ -8,7 +8,8 @@
     "subtitlePadding": 20
   },
   "projection": {
-    "type": "equirectangular"
+    "type": "equirectangular",
+    "rotate": [-133.7, 0, 0]
   },
   "width": "container",
   "height": "container",
