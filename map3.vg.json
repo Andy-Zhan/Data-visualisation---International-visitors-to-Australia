@@ -73,18 +73,33 @@
           "field": "geo",
           "type": "geojson"
         },
+        "color": { "value": "#eee" },
+        "tooltip": [
+          {
+            "field": "geo.properties.admin",
+            "type": "nominal",
+            "title": "Name"
+          },
+          { "field": "count", "type": "quantitative", "title": "Visitors" }
+        ]
+      }
+    },
+    {
+      "mark": { "type": "point", "filled": true },
+      "encoding": {
+        "longitude": { "field": "long", "type": "quantitative" },
+        "latitude": { "field": "lat", "type": "quantitative" },
+        "size": {
+          "field": "count",
+          "type": "quantitative",
+          "scale": { "rangeMax": 10000, "domain": [0, 1438670] }
+        },
         "color": {
           "field": "count",
           "type": "quantitative",
-          "scale": {
-            "type": "threshold",
-            "scheme": "oranges",
-            "domain": [100, 1000, 10000, 100000, 500000, 1000000]
-          },
-          "legend": {
-            "title": "Number of short-term visitors"
-          }
+          "scale": { "domain": [0, 1438670], "scheme": "Oranges" }
         },
+        "opacity": { "value": 0.9 },
         "tooltip": [
           {
             "field": "geo.properties.admin",
