@@ -1,5 +1,5 @@
 def process():
-  f = open("short_term_visitors.csv", "r")
+  f = open("../data/short_term_visitors.csv", "r")
   line = f.readline().replace('\"','')
   countries = [l.split(";")[1].strip() for l in line.strip().split(";,")]
   data_in = []
@@ -27,7 +27,7 @@ def process():
   for i in range(len(years)):
     for j in range(len(countries)):
       data_out.append([years[i], countries[j], str(by_year[i][j])])
-  f = open('short_term_visitors_output.csv', 'w')
+  f = open('../data/short_term_visitors_output.csv', 'w')
   for l in data_out:
     if "Total" not in ','.join(l):
       f.write(','.join(l)+'\n')
@@ -35,7 +35,7 @@ def process():
   return
 
 def process_2():
-  f = open("short_term_visitors_output.csv", "r")
+  f = open("../data/short_term_visitors_output.csv", "r")
   line = f.readline()
   line = f.readline().strip().split(',')
   m = 0

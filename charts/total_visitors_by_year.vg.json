@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "../data/total_tourists_by_year_output.csv"
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": { "field": "year", "type": "temporal" },
+    "y": { "field": "count", "type": "quantitative" },
+    "color": { "value": "orange" }
+  }
+}

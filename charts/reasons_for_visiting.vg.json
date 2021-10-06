@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "../data/reasons_for_visiting_output.csv"
+  },
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "encoding": {
+    "x": { "field": "year", "type": "temporal", "title": "Year" },
+    "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": "Number of visitors"
+    },
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field": "reason",
+        "type": "nominal",
+        "sort": [
+          "Business",
+          "Convention/conference",
+          "Education",
+          "Employment",
+          "Holiday",
+          "Visiting friends/relatives",
+          "Other"
+        ],
+        "scale": {
+          "range": [
+            "#c85200",
+            "#Fc7d0b",
+            "#ffbc79",
+            "#1170aa",
+            "#5fa2ce",
+            "#a3cce9",
+            "grey"
+          ]
+        }
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+
+            "fields": ["reason"],
+            "on": "mouseover"
+          }
+        }
+      ],
+      "mark": { "type": "line", "strokeWidth": 8, "stroke": "transparent" }
+    },
+    {
+      "mark": {
+        "type": "line"
+      },
+      "encoding": {
+        "x": { "field": "year", "type": "temporal" },
+        "y": { "field": "count", "type": "quantitative" }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "opacity": 1,
+        "filled": false,
+        "fill": "white"
+      },
+      "encoding": {
+        "x": { "field": "year", "type": "temporal" },
+        "y": { "field": "count", "type": "quantitative" }
+      }
+    }
+  ]
+}

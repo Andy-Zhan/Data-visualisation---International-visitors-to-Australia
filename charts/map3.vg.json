@@ -1,21 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Short-term visitors arriving in Australia",
-    "fontSize": 40,
-    "subtitle": "By year and country of residence",
-    "subtitleFontSize": 20,
-    "subtitlePadding": 20
-  },
+
   "projection": {
     "type": "equirectangular",
     "rotate": [-133.7, 0, 0]
   },
   "width": "container",
   "height": "container",
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": "transparent"
+    }
+  },
 
   "data": {
-    "url": "short_term_visitors_output.csv",
+    "url": "../data/short_term_visitors_output.csv",
     "format": { "type": "csv" }
   },
   "params": [
@@ -31,7 +31,7 @@
       "lookup": "name",
       "from": {
         "data": {
-          "url": "world.topojson",
+          "url": "../data/world.topojson",
           "format": { "type": "topojson", "feature": "world.geo" }
         },
         "key": "properties.admin"
@@ -42,7 +42,7 @@
       "lookup": "name",
       "from": {
         "data": {
-          "url": "centroids.csv",
+          "url": "../data/centroids.csv",
           "format": { "type": "csv" }
         },
         "key": "name",
@@ -53,7 +53,7 @@
   "layer": [
     {
       "data": {
-        "url": "world2.topojson",
+        "url": "../data/world2.topojson",
         "format": { "type": "topojson", "feature": "world.geo" }
       },
       "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
@@ -93,7 +93,7 @@
         "size": {
           "field": "count",
           "type": "quantitative",
-          "scale": { "rangeMax": 10000, "domain": [0, 1438670] }
+          "scale": { "rangeMax": 5000, "domain": [0, 1438670] }
         },
         "color": {
           "field": "count",

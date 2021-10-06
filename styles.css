@@ -1,14 +1,79 @@
 #symbol_map {
-  top: 100px;
+  /* grid-column: 2;
+  grid-row: 1; */
+  /* height: 100%; */
+  /* top: 100px;
   bottom: 100px;
   left: 100px;
   right: 100px;
-  position: absolute;
+  position: absolute; */
+  height: 500px;
+  width: 100%;
+}
+
+#total_visitors_by_year {
+  /* grid-column: 1;
+  grid-row: 1; */
+  height: 450px;
+  width: 100%;
+  margin: 50px 0px;
+}
+
+#reasons_for_visiting {
+  height: 480px;
+  width: 100%;
+}
+
+#main {
+  /* display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  grid-template-rows: 1fr 1fr; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-title {
+  margin-top: 100px;
+}
+
+#subtitle {
+  margin-bottom: 80px;
+}
+
+h1 {
+  color: #ff9d1f;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+}
+
+h2 {
+  color: gray;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
 }
 
 .vega-bind {
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 input {
@@ -36,4 +101,12 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"] + span {
   padding-left: 10px;
+}
+
+.container:nth-child(odd) {
+  background-color: #fff4e6;
+}
+
+.container {
+  padding: 20px 300px;
 }
