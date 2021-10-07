@@ -3,7 +3,7 @@
 
   "projection": {
     "type": "equirectangular",
-    "rotate": [-133.7, 0, 0]
+    "rotate": [-146, 0, 0]
   },
   "width": "container",
   "height": "container",
@@ -58,7 +58,9 @@
       },
       "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
       "encoding": {
-        "color": { "value": "#eee" },
+        "color": {
+          "value": "#eee"
+        },
         "tooltip": [
           { "field": "properties.admin", "type": "nominal", "title": "Name" }
         ]
@@ -86,20 +88,27 @@
       }
     },
     {
-      "mark": { "type": "point", "filled": true },
+      "mark": { "type": "point", "filled": true, "stroke": "white" },
       "encoding": {
         "longitude": { "field": "long", "type": "quantitative" },
         "latitude": { "field": "lat", "type": "quantitative" },
         "size": {
           "field": "count",
           "type": "quantitative",
-          "scale": { "rangeMax": 5000, "domain": [0, 1438670] }
+          "scale": {
+            "rangeMax": 5000,
+            "domain": [0, 1438670]
+          },
+          "sort": {
+            "field": "count",
+            "order": "descending"
+          }
         },
         "color": {
           "field": "count",
           "type": "quantitative",
           "scale": { "domain": [0, 1438670], "scheme": "Oranges" },
-          "legend": { "title": "Number of short-term visitors" }
+          "legend": null
         },
         "opacity": { "value": 0.9 },
         "tooltip": [

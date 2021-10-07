@@ -21,7 +21,9 @@
     },
     "color": {
       "condition": {
-        "param": "hover",
+        "test": {
+          "or": [{ "param": "hover" }]
+        },
         "field": "reason",
         "type": "nominal",
         "sort": [
@@ -33,6 +35,9 @@
           "Visiting friends/relatives",
           "Other"
         ],
+        "legend": {
+          "title": "Reason for visiting"
+        },
         "scale": {
           "range": [
             "#c85200",
@@ -49,26 +54,28 @@
     },
     "opacity": {
       "condition": {
-        "param": "hover",
+        "test": {
+          "or": [{ "param": "hover" }]
+        },
         "value": 1
       },
       "value": 0.2
     }
   },
+
   "layer": [
     {
       "params": [
         {
           "name": "hover",
+          "bind": { "legend": "click" },
           "select": {
             "type": "point",
-
-            "fields": ["reason"],
-            "on": "mouseover"
+            "fields": ["reason"]
           }
         }
       ],
-      "mark": { "type": "line", "strokeWidth": 8, "stroke": "transparent" }
+      "mark": { "type": "line", "strokeWidth": 16, "stroke": "transparent" }
     },
     {
       "mark": {
@@ -88,7 +95,22 @@
       },
       "encoding": {
         "x": { "field": "year", "type": "temporal" },
-        "y": { "field": "count", "type": "quantitative" }
+        "y": { "field": "count", "type": "quantitative" },
+
+        "tooltip": [
+          { "field": "reason", "title": "Reason", "type": "ordinal" },
+          {
+            "field": "year",
+            "title": "Year",
+            "type": "temporal",
+            "format": "%Y"
+          },
+          {
+            "field": "count",
+            "title": "Number of visitors",
+            "type": "quantitative"
+          }
+        ]
       }
     }
   ]

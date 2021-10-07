@@ -30,9 +30,7 @@ year,name,count
 1991,Indonesia,36990
 1991,Malaysia,48030
 1991,Philippines,15740
-1991,Singapore,87460
 1991,China,16420
-1991,Hong Kong,62780
 1991,Taiwan,34730
 1991,Japan,528570
 1991,South Korea,23610
@@ -80,9 +78,7 @@ year,name,count
 1992,Indonesia,45850
 1992,Malaysia,60350
 1992,Philippines,16110
-1992,Singapore,116810
 1992,China,18680
-1992,Hong Kong,74740
 1992,Taiwan,63470
 1992,Japan,629930
 1992,South Korea,33570
@@ -130,9 +126,7 @@ year,name,count
 1993,Indonesia,71550
 1993,Malaysia,80400
 1993,Philippines,17920
-1993,Singapore,154900
 1993,China,22270
-1993,Hong Kong,92010
 1993,Taiwan,108720
 1993,Japan,670820
 1993,South Korea,62020
@@ -180,9 +174,7 @@ year,name,count
 1994,Indonesia,105710
 1994,Malaysia,95070
 1994,Philippines,21670
-1994,Singapore,187640
 1994,China,29690
-1994,Hong Kong,109540
 1994,Taiwan,142530
 1994,Japan,721090
 1994,South Korea,110270
@@ -230,9 +222,7 @@ year,name,count
 1995,Indonesia,134950
 1995,Malaysia,108200
 1995,Philippines,26940
-1995,Singapore,202360
 1995,China,42600
-1995,Hong Kong,131690
 1995,Taiwan,151970
 1995,Japan,782680
 1995,South Korea,167970
@@ -280,9 +270,7 @@ year,name,count
 1996,Indonesia,154440
 1996,Malaysia,134410
 1996,Philippines,33570
-1996,Singapore,222820
 1996,China,53980
-1996,Hong Kong,153190
 1996,Taiwan,159400
 1996,Japan,813100
 1996,South Korea,227860
@@ -330,9 +318,7 @@ year,name,count
 1997,Indonesia,160380
 1997,Malaysia,143680
 1997,Philippines,41070
-1997,Singapore,239290
 1997,China,65850
-1997,Hong Kong,151720
 1997,Taiwan,153250
 1997,Japan,813890
 1997,South Korea,233810
@@ -380,9 +366,7 @@ year,name,count
 1998,Indonesia,93040
 1998,Malaysia,112090
 1998,Philippines,35380
-1998,Singapore,247080
 1998,China,76560
-1998,Hong Kong,143420
 1998,Taiwan,149940
 1998,Japan,751130
 1998,South Korea,66640
@@ -430,9 +414,7 @@ year,name,count
 1999,Indonesia,90990
 1999,Malaysia,139780
 1999,Philippines,40270
-1999,Singapore,266960
 1999,China,92590
-1999,Hong Kong,139560
 1999,Taiwan,147510
 1999,Japan,707480
 1999,South Korea,108630
@@ -480,9 +462,7 @@ year,name,count
 2000,Indonesia,98110
 2000,Malaysia,152080
 2000,Philippines,39180
-2000,Singapore,285730
 2000,China,120260
-2000,Hong Kong,154100
 2000,Taiwan,134350
 2000,Japan,720980
 2000,South Korea,157390
@@ -530,9 +510,7 @@ year,name,count
 2001,Indonesia,97880
 2001,Malaysia,149410
 2001,Philippines,30410
-2001,Singapore,296000
 2001,China,157940
-2001,Hong Kong,154150
 2001,Taiwan,110080
 2001,Japan,673570
 2001,South Korea,175600
@@ -580,9 +558,7 @@ year,name,count
 2002,Indonesia,89430
 2002,Malaysia,159000
 2002,Philippines,28460
-2002,Singapore,286860
 2002,China,190020
-2002,Hong Kong,150950
 2002,Taiwan,97420
 2002,Japan,715460
 2002,South Korea,189730
@@ -630,9 +606,7 @@ year,name,count
 2003,Indonesia,90270
 2003,Malaysia,155610
 2003,Philippines,27010
-2003,Singapore,253360
 2003,China,176140
-2003,Hong Kong,129290
 2003,Taiwan,87740
 2003,Japan,627740
 2003,South Korea,207280
@@ -680,9 +654,7 @@ year,name,count
 2004,Indonesia,83630
 2004,Malaysia,165070
 2004,Philippines,31280
-2004,Singapore,243900
 2004,China,250210
-2004,Hong Kong,135640
 2004,Taiwan,98600
 2004,Japan,707090
 2004,South Korea,213580
@@ -730,9 +702,7 @@ year,name,count
 2005,Indonesia,82690
 2005,Malaysia,161710
 2005,Philippines,33900
-2005,Singapore,248140
 2005,China,282730
-2005,Hong Kong,156180
 2005,Taiwan,110790
 2005,Japan,679970
 2005,South Korea,254630
@@ -780,9 +750,7 @@ year,name,count
 2006,Indonesia,82470
 2006,Malaysia,145990
 2006,Philippines,37570
-2006,Singapore,229010
 2006,China,305570
-2006,Hong Kong,147730
 2006,Taiwan,94270
 2006,Japan,645910
 2006,South Korea,266490
@@ -830,9 +798,7 @@ year,name,count
 2007,Indonesia,89910
 2007,Malaysia,152910
 2007,Philippines,44050
-2007,Singapore,232850
 2007,China,354610
-2007,Hong Kong,138780
 2007,Taiwan,93440
 2007,Japan,569710
 2007,South Korea,259380
@@ -880,9 +846,7 @@ year,name,count
 2008,Indonesia,94970
 2008,Malaysia,165690
 2008,Philippines,52090
-2008,Singapore,230920
 2008,China,354360
-2008,Hong Kong,131530
 2008,Taiwan,78090
 2008,Japan,455560
 2008,South Korea,222820
@@ -930,9 +894,7 @@ year,name,count
 2009,Indonesia,107190
 2009,Malaysia,204200
 2009,Philippines,52170
-2009,Singapore,246490
 2009,China,362690
-2009,Hong Kong,144150
 2009,Taiwan,99140
 2009,Japan,354000
 2009,South Korea,185710
@@ -980,9 +942,7 @@ year,name,count
 2010,Indonesia,121880
 2010,Malaysia,226410
 2010,Philippines,59070
-2010,Singapore,265100
 2010,China,451810
-2010,Hong Kong,150550
 2010,Taiwan,87670
 2010,Japan,396370
 2010,South Korea,218610
@@ -1030,9 +990,7 @@ year,name,count
 2011,Indonesia,136930
 2011,Malaysia,228000
 2011,Philippines,65890
-2011,Singapore,266190
 2011,China,540540
-2011,Hong Kong,154000
 2011,Taiwan,86270
 2011,Japan,332280
 2011,South Korea,204480
@@ -1080,9 +1038,7 @@ year,name,count
 2012,Indonesia,141860
 2012,Malaysia,247630
 2012,Philippines,74300
-2012,Singapore,287310
 2012,China,628100
-2012,Hong Kong,162890
 2012,Taiwan,98340
 2012,Japan,352570
 2012,South Korea,205270
@@ -1130,9 +1086,7 @@ year,name,count
 2013,Indonesia,146790
 2013,Malaysia,281390
 2013,Philippines,74550
-2013,Singapore,333140
 2013,China,720760
-2013,Hong Kong,182970
 2013,Taiwan,109320
 2013,Japan,330800
 2013,South Korea,198870
@@ -1180,9 +1134,7 @@ year,name,count
 2014,Indonesia,155000
 2014,Malaysia,326730
 2014,Philippines,81820
-2014,Singapore,362680
 2014,China,851030
-2014,Hong Kong,201340
 2014,Taiwan,120120
 2014,Japan,333750
 2014,South Korea,202820
@@ -1230,9 +1182,7 @@ year,name,count
 2015,Indonesia,157530
 2015,Malaysia,340680
 2015,Philippines,95240
-2015,Singapore,387150
 2015,China,1031900
-2015,Hong Kong,217880
 2015,Taiwan,131230
 2015,Japan,341990
 2015,South Korea,226780
@@ -1280,9 +1230,7 @@ year,name,count
 2016,Indonesia,180600
 2016,Malaysia,389960
 2016,Philippines,113050
-2016,Singapore,429760
 2016,China,1208240
-2016,Hong Kong,247680
 2016,Taiwan,162960
 2016,Japan,417870
 2016,South Korea,280100
@@ -1330,9 +1278,7 @@ year,name,count
 2017,Indonesia,192790
 2017,Malaysia,396770
 2017,Philippines,127300
-2017,Singapore,432970
 2017,China,1356910
-2017,Hong Kong,281200
 2017,Taiwan,179930
 2017,Japan,434550
 2017,South Korea,302210
@@ -1380,9 +1326,7 @@ year,name,count
 2018,Indonesia,208910
 2018,Malaysia,401170
 2018,Philippines,143700
-2018,Singapore,447980
 2018,China,1432140
-2018,Hong Kong,308750
 2018,Taiwan,202820
 2018,Japan,469330
 2018,South Korea,287990
@@ -1430,9 +1374,7 @@ year,name,count
 2019,Indonesia,221730
 2019,Malaysia,384900
 2019,Philippines,158550
-2019,Singapore,478500
 2019,China,1438670
-2019,Hong Kong,315150
 2019,Taiwan,194610
 2019,Japan,498640
 2019,South Korea,280480
@@ -1480,9 +1422,7 @@ year,name,count
 2020,Indonesia,34360
 2020,Malaysia,44790
 2020,Philippines,26530
-2020,Singapore,58320
 2020,China,207690
-2020,Hong Kong,60930
 2020,Taiwan,35950
 2020,Japan,91720
 2020,South Korea,53520
@@ -1530,9 +1470,7 @@ year,name,count
 2021,Indonesia,880
 2021,Malaysia,680
 2021,Philippines,1920
-2021,Singapore,2670
 2021,China,2180
-2021,Hong Kong,1330
 2021,Taiwan,210
 2021,Japan,1030
 2021,South Korea,510
