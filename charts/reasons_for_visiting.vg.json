@@ -27,6 +27,17 @@
     {
       "calculate": "datum.count/datum.total",
       "as": "percent"
+    },
+    {
+      "window": [
+        {
+          "op": "max",
+          "field": "percent",
+          "as": "maxPercent"
+        }
+      ],
+      "frame": [null, null],
+      "groupby": ["reason"]
     }
   ],
 
@@ -144,6 +155,25 @@
             "type": "quantitative"
           }
         ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.maxPercent === datum.percent"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {
+          "field": "maxPercent",
+          "type": "quantitative",
+          "format": ".1%"
+        }
       }
     }
   ]

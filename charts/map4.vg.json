@@ -1,0 +1,271 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "vconcat": [
+    {
+      "projection": {
+        "type": "equirectangular",
+        "rotate": [-146, 0, 0]
+      },
+      "width": "container",
+      "height": 440,
+
+      "data": {
+        "url": "../data/short_term_visitors_output.csv",
+        "format": { "type": "csv" }
+      },
+      "transform": [
+        { "filter": { "param": "brush" } },
+        {
+          "lookup": "name",
+          "from": {
+            "data": {
+              "url": "../data/world.topojson",
+              "format": { "type": "topojson", "feature": "world.geo" }
+            },
+            "key": "properties.admin"
+          },
+          "as": "geo"
+        },
+        {
+          "lookup": "name",
+          "from": {
+            "data": {
+              "url": "../data/centroids.csv",
+              "format": { "type": "csv" }
+            },
+            "key": "name",
+            "fields": ["lat", "long"]
+          }
+        }
+      ],
+      "layer": [
+        {
+          "data": {
+            "url": "../data/world2.topojson",
+            "format": { "type": "topojson", "feature": "world.geo" }
+          },
+          "mark": {
+            "type": "geoshape",
+            "fill": "lightgray",
+            "stroke": "white"
+          },
+          "encoding": {
+            "color": {
+              "value": "#eee"
+            },
+            "tooltip": [
+              {
+                "field": "properties.admin",
+                "type": "nominal",
+                "title": "Name"
+              }
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "geoshape",
+            "stroke": "black"
+          },
+          "encoding": {
+            "shape": {
+              "field": "geo",
+              "type": "geojson"
+            },
+            "color": { "value": "#eee" },
+            "tooltip": [
+              {
+                "field": "geo.properties.admin",
+                "type": "nominal",
+                "title": "Name"
+              },
+              { "field": "year", "type": "ordinal", "title": "Year" },
+              {
+                "field": "count",
+                "type": "quantitative",
+                "title": "Visitors",
+                "format": ","
+              }
+            ]
+          }
+        },
+        {
+          "mark": { "type": "point", "filled": true, "stroke": "white" },
+          "encoding": {
+            "longitude": { "field": "long", "type": "quantitative" },
+            "latitude": { "field": "lat", "type": "quantitative" },
+            "size": {
+              "field": "count",
+              "type": "quantitative",
+              "scale": {
+                "rangeMax": 5000,
+                "domain": [0, 1438670]
+              },
+              "sort": {
+                "field": "count",
+                "order": "descending"
+              }
+            },
+            "color": {
+              "field": "count",
+              "type": "quantitative",
+              "scale": { "domain": [0, 1438670], "scheme": "Oranges" },
+              "legend": null
+            },
+            "opacity": { "value": 0.9 },
+            "tooltip": [
+              {
+                "field": "geo.properties.admin",
+                "type": "nominal",
+                "title": "Name"
+              },
+              { "field": "year", "type": "ordinal", "title": "Year" },
+              {
+                "field": "count",
+                "type": "quantitative",
+                "title": "Visitors",
+                "format": ","
+              }
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "rule"
+          },
+          "encoding": {
+            "longitude": {
+              "field": "long",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "long"
+            },
+            "latitude2": {
+              "field": "lat"
+            },
+            "tooltip": [
+              {
+                "field": "geo.properties.admin",
+                "type": "nominal",
+                "title": "Name"
+              },
+              {
+                "field": "count",
+                "type": "quantitative",
+                "title": "Visitors",
+                "format": ","
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": "container",
+      "height": 80,
+      "data": {
+        "url": "../data/total_tourists_by_year_output.csv"
+      },
+      "transform": [
+        {
+          "filter": "year(datum.year) >= 1991"
+        }
+      ],
+      "layer": [
+        {
+          "params": [
+            {
+              "name": "brush",
+              "value": "2020",
+              "select": {
+                "type": "point",
+                "fields": ["year"],
+                "encodings": ["x"],
+                "on": "mouseover",
+                "nearest": true,
+                "toggle": false,
+                "clear": false
+              }
+            }
+          ],
+          "mark": "point",
+          "encoding": {
+            "x": { "field": "year", "type": "ordinal", "axis": null },
+            "opacity": { "value": 0 }
+          }
+        },
+        {
+          "mark": {
+            "type": "line",
+            "point": true
+          },
+          "encoding": {
+            "x": { "field": "year", "type": "ordinal", "title": "Year" },
+            "y": {
+              "field": "count",
+              "type": "quantitative",
+              "title": "Total yearly visitors",
+              "axis": {
+                "format": ".1s"
+              }
+            },
+            "color": { "value": "orange" }
+          }
+        },
+        {
+          "transform": [{ "filter": { "param": "brush" } }],
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "ordinal"
+            },
+            "color": { "value": "#b22222" }
+          },
+          "layer": [
+            { "mark": { "type": "rule", "strokeWidth": 1 } },
+            {
+              "mark": {
+                "type": "text",
+                "align": "center",
+                "fontWeight": "bold",
+                "fontSize": 12
+              },
+              "encoding": {
+                "text": { "field": "year" },
+                "y": { "value": -30 }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "center",
+                "fontWeight": 100,
+                "fontSize": 11
+              },
+              "encoding": {
+                "text": {
+                  "value": {
+                    "expr": "'Total visitors: ' + format(datum.count, ',')"
+                  }
+                },
+                "y": { "value": -15 }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
