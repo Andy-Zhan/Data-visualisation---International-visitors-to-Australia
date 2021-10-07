@@ -204,7 +204,11 @@
                   "select": {
                     "type": "point",
                     "fields": ["name"],
-                    "on": "mouseover"
+                    "on": {
+                      "source": "scope",
+                      "type": "mouseover"
+                    },
+                    "clear": "click"
                   }
                 }
               ],
@@ -248,7 +252,13 @@
                     "value": 1
                   },
                   "value": 0.3
-                }
+                },
+                "tooltip": [
+                  {
+                    "field": "count",
+                    "title": "No. of visitors"
+                  }
+                ]
               }
             },
             {
@@ -256,11 +266,18 @@
                 "type": "text",
                 "align": "left",
                 "fontWeight": 100,
-                "fontSize": 11
+                "fontSize": 12
               },
               "encoding": {
                 "text": {
                   "field": "name"
+                },
+                "color": {
+                  "condition": {
+                    "test": "datum.count > 1000000",
+                    "value": "white"
+                  },
+                  "value": "black"
                 },
                 "x": { "value": 10 },
                 "y": {
