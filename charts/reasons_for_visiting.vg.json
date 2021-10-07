@@ -12,13 +12,39 @@
       "stroke": "transparent"
     }
   },
-  "encoding": {
-    "x": { "field": "year", "type": "temporal", "title": "Year" },
-    "y": {
-      "field": "count",
-      "type": "quantitative",
-      "title": "Number of visitors"
+  "transform": [
+    {
+      "window": [
+        {
+          "op": "sum",
+          "field": "count",
+          "as": "total"
+        }
+      ],
+      "frame": [null, null],
+      "groupby": ["year"]
     },
+    {
+      "calculate": "datum.count/datum.total",
+      "as": "percent"
+    }
+  ],
+
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "percent",
+      "type": "quantitative",
+      "title": "Percentage of yearly visitors",
+      "axis": {
+        "format": ".0%"
+      }
+    },
+
     "color": {
       "condition": {
         "test": {
@@ -68,10 +94,11 @@
       "params": [
         {
           "name": "hover",
-          "bind": { "legend": "click" },
+          "bind": { "legend": "mouseover" },
           "select": {
             "type": "point",
-            "fields": ["reason"]
+            "fields": ["reason"],
+            "on": "mouseover"
           }
         }
       ],
@@ -83,7 +110,7 @@
       },
       "encoding": {
         "x": { "field": "year", "type": "temporal" },
-        "y": { "field": "count", "type": "quantitative" }
+        "y": { "field": "percent", "type": "quantitative" }
       }
     },
     {
@@ -95,7 +122,7 @@
       },
       "encoding": {
         "x": { "field": "year", "type": "temporal" },
-        "y": { "field": "count", "type": "quantitative" },
+        "y": { "field": "percent", "type": "quantitative" },
 
         "tooltip": [
           { "field": "reason", "title": "Reason", "type": "ordinal" },
@@ -106,8 +133,14 @@
             "format": "%Y"
           },
           {
+            "field": "percent",
+            "title": "Percentage of yearly visitors",
+            "type": "quantitative",
+            "format": ".1%"
+          },
+          {
             "field": "count",
-            "title": "Number of visitors",
+            "title": "Actual number of visitors",
             "type": "quantitative"
           }
         ]
