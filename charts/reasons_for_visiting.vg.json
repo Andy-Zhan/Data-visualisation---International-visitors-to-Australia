@@ -10,7 +10,8 @@
     "background": null,
     "view": {
       "stroke": "transparent"
-    }
+    },
+    "font": "Public Sans"
   },
   "transform": [
     {
@@ -58,9 +59,7 @@
 
     "color": {
       "condition": {
-        "test": {
-          "or": [{ "param": "hover" }]
-        },
+        "param": "hover",
         "field": "reason",
         "type": "nominal",
         "sort": [
@@ -90,12 +89,7 @@
       "value": "grey"
     },
     "opacity": {
-      "condition": {
-        "test": {
-          "or": [{ "param": "hover" }]
-        },
-        "value": 1
-      },
+      "condition": { "param": "hover", "value": 1 },
       "value": 0.2
     }
   },
