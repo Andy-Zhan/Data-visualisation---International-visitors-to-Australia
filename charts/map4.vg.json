@@ -16,7 +16,7 @@
             "type": "equirectangular",
             "rotate": [-146, 0, 0]
           },
-          "width": "container",
+          "width": 950,
           "height": 440,
 
           "data": {
@@ -208,7 +208,7 @@
                       "source": "scope",
                       "type": "mouseover"
                     },
-                    "clear": "click"
+                    "clear": "mouseout"
                   }
                 }
               ],
@@ -217,12 +217,7 @@
                 "x": {
                   "field": "count",
                   "type": "quantitative",
-                  "axis": {
-                    "title": "Number of visitors",
-                    "ticks": false,
-                    "grid": false,
-                    "labels": false
-                  }
+                  "axis": null
                 },
                 "y": {
                   "field": "name",
@@ -230,11 +225,7 @@
                     "field": "ranking",
                     "order": "ascending"
                   },
-                  "axis": {
-                    "title": null,
-                    "labels": false,
-                    "ticks": false
-                  }
+                  "axis": null
                 },
                 "color": {
                   "condition": {
@@ -273,10 +264,16 @@
                   "field": "name"
                 },
                 "color": {
-                  "condition": {
-                    "test": "datum.count > 1000000",
-                    "value": "white"
-                  },
+                  "condition": [
+                    {
+                      "test": { "not": { "param": "barhover" } },
+                      "value": "black"
+                    },
+                    {
+                      "test": "datum.count > 1000000",
+                      "value": "white"
+                    }
+                  ],
                   "value": "black"
                 },
                 "x": { "value": 10 },
@@ -293,7 +290,7 @@
       ]
     },
     {
-      "width": "container",
+      "width": 1170,
       "height": 80,
       "data": {
         "url": "../data/total_tourists_by_year_output.csv"
@@ -308,7 +305,7 @@
           "params": [
             {
               "name": "brush",
-              "value": "2020",
+              "value": "2019",
               "select": {
                 "type": "point",
                 "fields": ["year"],
@@ -354,7 +351,7 @@
             "color": { "value": "#b22222" }
           },
           "layer": [
-            { "mark": { "type": "rule", "strokeWidth": 1 } },
+            { "mark": { "type": "rule", "strokeWidth": 2 } },
             {
               "mark": {
                 "type": "text",

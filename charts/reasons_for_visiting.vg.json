@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "width": "container",
-  "height": "container",
+  "height": 600,
   "data": {
     "url": "../data/reasons_for_visiting_output.csv"
   },
@@ -46,14 +46,18 @@
     "x": {
       "field": "year",
       "type": "temporal",
-      "title": "Year"
+      "title": "Year",
+      "axis": {
+        "titleFontSize": 14
+      }
     },
     "y": {
       "field": "percent",
       "type": "quantitative",
       "title": "Percentage of yearly visitors",
       "axis": {
-        "format": ".0%"
+        "format": ".0%",
+        "titleFontSize": 14
       }
     },
 
@@ -72,16 +76,18 @@
           "Other"
         ],
         "legend": {
-          "title": "Reason for visiting"
+          "title": null,
+          "labelFontSize": 12
         },
         "scale": {
           "range": [
-            "#c85200",
-            "#Fc7d0b",
-            "#ffbc79",
-            "#1170aa",
-            "#5fa2ce",
-            "#a3cce9",
+            "#4e79a7",
+            "#f28e2b",
+            "#e15759",
+
+            "#edc948",
+            "#76b7b2",
+            "#b07aa1",
             "grey"
           ]
         }
@@ -146,7 +152,8 @@
           {
             "field": "count",
             "title": "Actual number of visitors",
-            "type": "quantitative"
+            "type": "quantitative",
+            "format": ","
           }
         ]
       }

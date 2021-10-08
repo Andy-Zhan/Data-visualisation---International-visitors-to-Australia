@@ -1,0 +1,158 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": "container",
+  "height": 600,
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": "transparent"
+    },
+    "font": "Public Sans"
+  },
+  "data": {
+    "url": "../data/monthly_visits_output.csv"
+  },
+  "transform": [
+    {
+      "lookup": "Month",
+      "from": {
+        "data": {
+          "url": "../data/monthly_temperature.csv"
+        },
+        "key": "Month",
+        "fields": ["mintemp", "maxtemp"]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "area"
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Month",
+          "type": "ordinal",
+          "sort": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+          ]
+        },
+        "y": {
+          "field": "maxtemp",
+          "type": "quantitative",
+          "axis": {
+            "domain": false,
+            "title": "Temperature range (°C)",
+            "orient": "right",
+            "titleFontSize": 14
+          }
+        },
+        "y2": {
+          "field": "mintemp"
+        },
+        "opacity": { "value": 0.1 }
+      }
+    },
+    {
+      "mark": {
+        "type": "boxplot"
+      },
+
+      "encoding": {
+        "color": { "value": "#FF8C00" },
+        "x": {
+          "field": "Month",
+          "type": "ordinal",
+          "sort": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+          ],
+          "axis": {
+            "titleFontSize": 14
+          }
+        },
+        "y": {
+          "field": "Average percentage of yearly visitors",
+          "type": "quantitative",
+          "axis": {
+            "title": "Average percentage of yearly visitors",
+            "format": ".0%",
+            "domain": false,
+            "orient": "left",
+            "titleFontSize": 14
+          }
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "format(datum.mintemp,'.1f')+'°C - '+format(datum.maxtemp,'.1f')+'°C'",
+          "as": "temprange"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Month",
+          "type": "ordinal",
+          "sort": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+          ]
+        },
+        "tooltip": [
+          {
+            "field": "Month"
+          },
+          {
+            "field": "Average percentage of yearly visitors",
+            "format": ".2%",
+            "title": "Avg. percentage of yearly visitors"
+          },
+          {
+            "field": "temprange",
+            "title": "Temperature range"
+          }
+        ],
+        "opacity": {
+          "value": 0.00001
+        }
+      },
+      "mark": { "type": "rule", "strokeWidth": 100 }
+    }
+  ],
+  "resolve": { "scale": { "y": "independent" } }
+}
