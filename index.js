@@ -1,5 +1,5 @@
 $(function () {
-  vegaEmbed("#symbol_map", "./charts/map4.vg.json")
+  vegaEmbed("#symbol_map", "{{site.baseurl}}/charts/map4.vg.json")
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
@@ -18,7 +18,10 @@ $(function () {
 // });
 
 $(function () {
-  vegaEmbed("#reasons_for_visiting", "./charts/reasons_for_visiting.vg.json")
+  vegaEmbed(
+    "#reasons_for_visiting",
+    "{{site.baseurl}}/charts/reasons_for_visiting.vg.json"
+  )
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
