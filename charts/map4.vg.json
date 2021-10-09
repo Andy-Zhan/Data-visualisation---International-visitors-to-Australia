@@ -20,7 +20,7 @@
           "height": 440,
 
           "data": {
-            "url": "../data/short_term_visitors_output.csv",
+            "url": "./data/short_term_visitors_output.csv",
             "format": { "type": "csv" }
           },
           "transform": [
@@ -29,7 +29,7 @@
               "lookup": "name",
               "from": {
                 "data": {
-                  "url": "../data/world.topojson",
+                  "url": "./data/world.topojson",
                   "format": { "type": "topojson", "feature": "world.geo" }
                 },
                 "key": "properties.admin"
@@ -40,7 +40,7 @@
               "lookup": "name",
               "from": {
                 "data": {
-                  "url": "../data/centroids.csv",
+                  "url": "./data/centroids.csv",
                   "format": { "type": "csv" }
                 },
                 "key": "name",
@@ -51,7 +51,7 @@
           "layer": [
             {
               "data": {
-                "url": "../data/world2.topojson",
+                "url": "./data/world2.topojson",
                 "format": { "type": "topojson", "feature": "world.geo" }
               },
               "mark": {
@@ -184,7 +184,7 @@
           "width": 240,
           "height": "container",
           "data": {
-            "url": "../data/short_term_visitors_output.csv",
+            "url": "./data/short_term_visitors_output.csv",
             "format": { "type": "csv", "parse": { "count": "number" } }
           },
           "transform": [
@@ -294,7 +294,7 @@
       "width": 1170,
       "height": 80,
       "data": {
-        "url": "../data/total_tourists_by_year_output.csv"
+        "url": "./data/total_tourists_by_year_output.csv"
       },
       "transform": [
         {

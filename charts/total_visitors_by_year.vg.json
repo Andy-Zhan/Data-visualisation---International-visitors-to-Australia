@@ -4,7 +4,7 @@
   "width": "container",
   "height": "container",
   "data": {
-    "url": "../data/total_tourists_by_year_output.csv"
+    "url": "./data/total_tourists_by_year_output.csv"
   },
   "mark": {
     "type": "line",

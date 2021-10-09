@@ -4,7 +4,7 @@
   "width": "container",
   "height": 600,
   "data": {
-    "url": "../data/reasons_for_visiting_output.csv"
+    "url": "./data/reasons_for_visiting_output.csv"
   },
   "config": {
     "background": null,

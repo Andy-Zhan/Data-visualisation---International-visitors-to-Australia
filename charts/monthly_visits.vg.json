@@ -11,14 +11,14 @@
     "font": "Public Sans"
   },
   "data": {
-    "url": "../data/monthly_visits_output.csv"
+    "url": "./data/monthly_visits_output.csv"
   },
   "transform": [
     {
       "lookup": "Month",
       "from": {
         "data": {
-          "url": "../data/monthly_temperature.csv"
+          "url": "./data/monthly_temperature.csv"
         },
         "key": "Month",
         "fields": ["mintemp", "maxtemp"]

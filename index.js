@@ -5,15 +5,6 @@ $(function () {
     })
     .catch(console.error);
 });
-
-$(function () {
-  vegaEmbed("", "{{site.baseUrl}}/charts/map4.vg.json")
-    .then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    })
-    .catch(console.error);
-});
-
 // $(function () {
 //   vegaEmbed(
 //     "#total_visitors_by_year",
