@@ -72,7 +72,13 @@
       },
 
       "encoding": {
-        "color": { "value": "#FF8C00" },
+        "color": {
+          "condition": {
+            "param": "highlight",
+            "value": "#FF8C00"
+          },
+          "value": "grey"
+        },
         "x": {
           "field": "Month",
           "type": "ordinal",
@@ -112,6 +118,20 @@
         {
           "calculate": "format(datum.mintemp,'.1f')+'°C - '+format(datum.maxtemp,'.1f')+'°C'",
           "as": "temprange"
+        }
+      ],
+      "params": [
+        {
+          "name": "highlight",
+          "select": {
+            "type": "point",
+            "fields": ["Month"],
+            "encodings": ["x"],
+            "on": "mouseover",
+            "nearest": true,
+            "toggle": false,
+            "clear": "mouseout"
+          }
         }
       ],
       "encoding": {

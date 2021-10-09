@@ -247,7 +247,8 @@
                 "tooltip": [
                   {
                     "field": "count",
-                    "title": "No. of visitors"
+                    "title": "No. of visitors",
+                    "format": ","
                   }
                 ]
               }
