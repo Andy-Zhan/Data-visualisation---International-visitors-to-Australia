@@ -101,10 +101,10 @@
           }
         },
         "y": {
-          "field": "Average percentage of yearly visitors",
+          "field": "Percentage of yearly visitors",
           "type": "quantitative",
           "axis": {
-            "title": "Average percentage of yearly visitors",
+            "title": "Percentage of yearly visitors",
             "format": ".0%",
             "domain": false,
             "orient": "left",
@@ -158,9 +158,16 @@
             "field": "Month"
           },
           {
-            "field": "Average percentage of yearly visitors",
+            "field": "Percentage of yearly visitors",
             "format": ".2%",
-            "title": "Avg. percentage of yearly visitors"
+            "title": "Median % of yearly visitors",
+            "aggregate": "median"
+          },
+          {
+            "field": "Percentage of yearly visitors",
+            "format": ".2%",
+            "title": "Mean % of yearly visitors",
+            "aggregate": "mean"
           },
           {
             "field": "temprange",
