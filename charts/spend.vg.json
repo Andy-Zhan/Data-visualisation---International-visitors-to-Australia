@@ -48,14 +48,23 @@
           "as": "spendPerPerson"
         }
       ],
+
       "encoding": {
         "color": {
-          "condition": { "param": "selectLocation", "field": "Location" },
+          "condition": {
+            "param": "selectLocation",
+            "field": "Location",
+            "legend": {
+              "titleFontSize": 14,
+              "labelFontSize": 12
+            }
+          },
           "value": "#eee"
         },
         "size": {
           "value": 200
         },
+
         "tooltip": [
           {
             "title": "Location",
