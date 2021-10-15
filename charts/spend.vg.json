@@ -90,13 +90,14 @@
           "field": "Visitors",
           "type": "quantitative",
           "scale": { "domain": [0, 4500000] },
-          "axis": { "formatType": "milFormat" }
+          "axis": { "formatType": "milFormat", "titleFontSize": 14 }
         },
         "y": {
           "field": "Expenditure",
           "type": "quantitative",
           "axis": {
-            "formatType": "moneyFormat"
+            "formatType": "moneyFormat",
+            "titleFontSize": 14
           },
 
           "scale": { "domain": [0, 11000000000] }
