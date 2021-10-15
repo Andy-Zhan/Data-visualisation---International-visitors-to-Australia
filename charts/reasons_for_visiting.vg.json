@@ -95,7 +95,7 @@
       "value": "grey"
     },
     "opacity": {
-      "condition": { "param": "hover", "value": 1 },
+      "condition": [{ "param": "hover", "value": 1 }],
       "value": 0.2
     }
   },
@@ -162,6 +162,9 @@
       "transform": [
         {
           "filter": "datum.maxPercent === datum.percent"
+        },
+        {
+          "filter": "datum.reason !== 'Employment' && datum.reason !== 'Convention/conference'"
         }
       ],
       "mark": {

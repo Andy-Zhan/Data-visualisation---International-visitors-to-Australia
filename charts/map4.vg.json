@@ -54,6 +54,12 @@
                 "url": "./data/world2.topojson",
                 "format": { "type": "topojson", "feature": "world.geo" }
               },
+              "transform": [
+                {
+                  "calculate": "'Data unavailable'",
+                  "as": "n/a"
+                }
+              ],
               "mark": {
                 "type": "geoshape",
                 "fill": "lightgray",
@@ -68,6 +74,10 @@
                     "field": "properties.admin",
                     "type": "nominal",
                     "title": "Name"
+                  },
+                  {
+                    "field": "n/a",
+                    "title": "Visitors"
                   }
                 ]
               }

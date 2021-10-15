@@ -1,0 +1,142 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": "container",
+  "height": 600,
+  "data": {
+    "url": "./data/spend.csv",
+    "format": {
+      "parse": {
+        "Visitors": "number",
+        "Expenditure": "number"
+      }
+    }
+  },
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": "transparent"
+    },
+    "font": "Public Sans",
+    "customFormatTypes": true
+  },
+  "params": [
+    {
+      "name": "Year",
+      "value": 2020,
+      "bind": { "input": "range", "min": 2005, "max": 2020, "step": 1 }
+    }
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "selectLocation",
+          "bind": { "legend": "click" },
+          "select": {
+            "type": "point",
+            "fields": ["Location"],
+            "on": "click"
+          }
+        }
+      ],
+      "mark": "point",
+      "transform": [
+        { "filter": "year(datum.year) === Year" },
+        {
+          "calculate": "datum.Expenditure/datum.Visitors",
+          "as": "spendPerPerson"
+        }
+      ],
+      "encoding": {
+        "color": {
+          "condition": { "param": "selectLocation", "field": "Location" },
+          "value": "#eee"
+        },
+        "size": {
+          "value": 200
+        },
+        "tooltip": [
+          {
+            "title": "Location",
+            "field": "Location"
+          },
+          {
+            "title": "Visitors",
+            "field": "Visitors",
+            "format": ","
+          },
+          {
+            "title": "Expenditure",
+            "field": "Expenditure",
+            "format": "$,"
+          },
+          {
+            "title": "Average spend per visitor",
+            "field": "spendPerPerson",
+            "format": "$,.0d"
+          }
+        ],
+        "x": {
+          "field": "Visitors",
+          "type": "quantitative",
+          "scale": { "domain": [0, 4500000] },
+          "axis": { "formatType": "milFormat" }
+        },
+        "y": {
+          "field": "Expenditure",
+          "type": "quantitative",
+          "axis": {
+            "formatType": "moneyFormat"
+          },
+
+          "scale": { "domain": [0, 11000000000] }
+        }
+      }
+    },
+    {
+      "transform": [
+        { "filter": "year(datum.year) === Year" },
+        {
+          "lookup": "year",
+          "from": {
+            "data": {
+              "url": "./data/spendslope.csv"
+            },
+            "key": "year",
+            "fields": ["sx1", "sx2", "sy1", "sy2"]
+          }
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "color": {
+          "value": "grey"
+        },
+        "strokeDash": { "value": [8, 4] },
+        "opacity": { "value": 0.2 },
+        "x": {
+          "field": "sx1",
+          "type": "quantitative",
+          "axis": {
+            "title": "Visitors"
+          }
+        },
+        "y": {
+          "field": "sy1",
+          "type": "quantitative",
+          "axis": {
+            "title": "Expenditure"
+          }
+        },
+        "x2": {
+          "field": "sx2"
+        },
+        "y2": {
+          "field": "sy2"
+        }
+      }
+    }
+  ],
+  "resolve": { "axis": { "x": "shared", "y": "shared" } }
+}
