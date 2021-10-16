@@ -27,6 +27,51 @@
   ],
   "layer": [
     {
+      "transform": [{ "filter": "datum.Month === 'Dec'" }],
+      "mark": {
+        "type": "text",
+        "dx": -60,
+        "dy": -30,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "color": {
+          "value": "#e87e3c"
+        },
+
+        "text": {
+          "value": [
+            "On average, 11.4% of annual",
+            "visitors arrive in December."
+          ]
+        },
+        "x": {
+          "field": "Month",
+          "type": "ordinal",
+          "sort": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+          ]
+        },
+        "y": {
+          "field": "Percentage of yearly visitors",
+          "type": "quantitative",
+          "aggregate": "max",
+          "axis": null
+        }
+      }
+    },
+    {
       "mark": {
         "type": "area"
       },

@@ -29,6 +29,43 @@
   ],
   "layer": [
     {
+      "transform": [
+        { "filter": "year(datum.year) === Year" },
+        {
+          "filter": "datum.Location === 'Melbourne' || datum.Location === 'Sydney'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "dx": 0,
+        "dy": -14
+      },
+      "encoding": {
+        "text": { "field": "Location" },
+        "color": {
+          "condition": {
+            "param": "selectLocation",
+            "field": "Location",
+            "legend": {
+              "titleFontSize": 14,
+              "labelFontSize": 12
+            }
+          },
+          "value": "#eee"
+        },
+        "x": {
+          "field": "Visitors",
+          "type": "quantitative",
+          "scale": { "domain": [0, 4500000] }
+        },
+        "y": {
+          "field": "Expenditure",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
       "params": [
         {
           "name": "selectLocation",
